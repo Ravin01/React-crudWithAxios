@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "saranya",
+      "age": "21",
+      "email": "email@gamil.com"
+    },
+    {
+      "id": 2,
+      "name": "name2",
+      "age": "21",
+      "email": "email@gamil.com"
+    },
+    {
+      "id": 3,
+      "name": "name3",
+      "age": "21",
+      "email": "email@gamil.com"
+    },
+    {
+      "id": 4,
+      "name": "name1",
+      "age": "21",
+      "email": "email@gamil.com"
+    },
+    {
+      "id": 5,
+      "name": "name1",
+      "age": "21",
+      "email": "email@gamil.com"
+    },
+    {
+      "name": "ravin",
+      "age": " 21",
+      "email": "ravinganapathi@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "new user",
+      "age": "45",
+      "email": "gswebsites@gmail.com",
+      "id": 9
+    }
+  ]
+}
