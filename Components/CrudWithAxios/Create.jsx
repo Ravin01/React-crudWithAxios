@@ -14,11 +14,11 @@ const Create = () => {
     const handleClick = (ele) => {
         ele.preventDefault();
         axios.post("http://localhost:3000/users", data)
-        .then((res) => {
-            console.log(res)
-        }).catch((err)=>{
-            console.log(err)
-        })
+        // .then((res) => {
+        //     console.log(res)
+        // }).catch((err)=>{
+        //     console.log(err)
+        // })
         setData({
             "name": " ",
             "age": " ",

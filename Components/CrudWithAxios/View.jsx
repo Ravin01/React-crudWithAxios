@@ -9,6 +9,7 @@ const View = () => {
         axios.get(`http://localhost:3000/users/${id}`)
         .then(res => setData(res.data))
         .catch(err => console.log(err))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
     return (
         <div>

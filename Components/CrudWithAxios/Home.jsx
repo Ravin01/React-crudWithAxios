@@ -5,15 +5,15 @@ import { Link } from "react-router-dom"
 const Home = () => {
     const [data, setData] = useState([])
     useEffect(() => {
-        axios.get("http://localhost:3000/users")
-            .then((res) => {
-                setData(res.data)
-            }).catch((err) => {
-                console.log(err);
-            })
+        axios.get("http://localhost:3000/users").then(res => setData(res.data)).catch(err => console.log(err))
+            // .then((res) => {
+            //     setData(res.data)
+            // }).catch((err) => {
+            //     console.log(err);
+            // })
     }, []);
     const deleteUser=(id)=>{
-        axios.delete(`http://localhost:3000/users/${id}`)
+        axios.delete(`http://localhost:3000/users/${id}`);
     }
     return (
         <div>
